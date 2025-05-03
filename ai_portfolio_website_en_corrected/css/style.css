@@ -1,0 +1,306 @@
+/* General Styles */
+body {
+    padding-top: 56px; /* Adjust based on navbar height */
+    font-family: 'Roboto', sans-serif; /* Using Roboto font */
+    color: #333; /* Darker default text color */
+    background-color: #f4f7f6; /* Light background for the body */
+}
+
+section {
+    scroll-margin-top: 70px; /* Increased offset for fixed navbar */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+h2 {
+    color: #0056b3; /* Dark blue for headings */
+    margin-bottom: 3rem !important;
+    font-weight: 700;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95) !important; /* Slightly less transparent white */
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #0056b3 !important;
+    transition: transform 0.3s ease;
+}
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+.navbar-nav .nav-link {
+    color: #555 !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+    margin: 0 5px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Brighter blue for active/hover */
+    background-color: rgba(0, 123, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+    color: #007bff !important;
+    font-weight: bold;
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Home Section */
+#home {
+    background: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: #fff; /* White text on gradient */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative; /* For potential pseudo-elements */
+    overflow: hidden;
+}
+/* Optional: Add subtle animation or overlay */
+/* #home::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+} */
+
+#home .container {
+    position: relative; /* Ensure content is above pseudo-elements */
+    z-index: 1;
+}
+
+#home h1 {
+    font-size: 3.5rem; /* Slightly larger */
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#home .lead {
+    font-size: 1.4rem; /* Slightly larger */
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    max-width: 700px; /* Limit width for readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-pic {
+    width: 200px; /* Larger profile pic */
+    height: 200px;
+    object-fit: cover;
+    border: 8px solid rgba(255, 255, 255, 0.4); /* Thicker border */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.4s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.08) rotate(3deg);
+}
+
+/* Section Backgrounds */
+#experience, #projects {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+#certifications, #contact {
+    background-color: #ffffff; /* White background */
+}
+
+/* Card Styles */
+.card {
+    border: none; /* Remove default border */
+    border-radius: 12px; /* More rounded corners */
+    transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden; /* Ensure content respects border radius */
+    background-color: #fff; /* Ensure card background is white */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-title {
+    color: #0056b3; /* Match heading color */
+    font-weight: 600;
+}
+
+.card-subtitle {
+    color: #6c757d; /* Standard muted color */
+    font-size: 0.9rem;
+}
+
+.card-body {
+    padding: 1.75rem; /* Slightly more padding */
+}
+
+.card-img-top {
+    transition: transform 0.4s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+/* Certification Icons */
+.card .bi {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.card:hover .bi {
+    transform: scale(1.15);
+}
+.card:hover .text-primary i { color: #0056b3 !important; }
+.card:hover .text-success i { color: #198754 !important; }
+.card:hover .text-info i { color: #0dcaf0 !important; }
+
+/* Project Section - Video */
+.ratio iframe {
+    border-radius: 12px 12px 0 0; /* Match card top radius */
+}
+
+/* Buttons */
+.btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px; /* Pill shape */
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Add similar hover styles for other outline buttons (success, info) */
+.btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+}
+.btn-outline-success:hover {
+    background-color: #198754;
+    color: #fff;
+}
+.btn-outline-info {
+    color: #0dcaf0;
+    border-color: #0dcaf0;
+}
+.btn-outline-info:hover {
+    background-color: #0dcaf0;
+    color: #fff;
+}
+
+/* Contact Form */
+#contact form .form-control {
+    border-radius: 8px; /* Slightly more rounded */
+    padding: 0.75rem 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.2);
+}
+
+#contact .btn-outline-secondary i {
+    margin-right: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #212529; /* Even darker footer */
+    color: rgba(255, 255, 255, 0.6);
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    #home h1 {
+        font-size: 2.8rem;
+    }
+    #home .lead {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 56px; /* Reset padding if navbar collapses differently */
+    }
+    h1, #home h1 {
+        font-size: 2.2rem;
+    }
+    #home .lead {
+        font-size: 1.1rem;
+    }
+    .profile-pic {
+        width: 160px;
+        height: 160px;
+    }
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .navbar-nav .nav-link {
+        margin: 5px 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-pic {
+        width: 140px;
+        height: 140px;
+    }
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
