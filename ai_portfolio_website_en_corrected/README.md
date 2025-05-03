@@ -1,52 +1,49 @@
-# AI Engineer Portfolio
+# AI Portfolio Website
 
-This is the source code for a personal portfolio website for an AI Engineer, built using HTML, CSS, JavaScript, and Bootstrap 5.
+Welcome to my AI portfolio — a showcase of my projects and experience in the fields of Artificial Intelligence, Machine Learning, NLP, and Computer Vision. This portfolio is built as a responsive and professional website to highlight my work, achievements, and how to get in touch with me.
 
-## Features
+## 🌐 Live Website
 
-*   Professional and clean design.
-*   Responsive across all screen sizes (desktop, tablet, mobile).
-*   Enhanced visuals with gradients, hover effects, and smooth animations.
-*   Separate sections for:
-    *   **Home:** Brief introduction and profile picture.
-    *   **Experience:** Showcase professional work history.
-    *   **Certifications:** Display professional certifications.
-    *   **Projects:** Exhibit projects with images/videos and code links.
-    *   **Contact:** Contact form and direct contact links.
-*   Smooth scrolling and active navigation highlighting.
+[View the Portfolio](https://<your-username>.github.io/Myportfolio/ai_portfolio_website_en_corrected/)  
+*(Replace the URL with your actual GitHub Pages link)*
 
-## How to Use and Customize
+## 🚀 Highlights
 
-1.  **Download Files:** Download all files from this repository/archive.
-2.  **Customize Content:**
-    *   Open `index.html` and modify the placeholder text:
-        *   AI Engineer Name (in navbar, home section, footer).
-        *   Job title/description in the home section.
-        *   Experience details (Job Title, Company, Dates, Description).
-        *   Certification details (Certificate Name, Issuer, Link if available).
-        *   Project details (Project Title, Description, Image/Video source, Code link).
-        *   Contact links (Email, LinkedIn, etc.).
-    *   Replace the placeholder images in the `img/` folder with your own:
-        *   `profile_placeholder.png` (Should be square; CSS makes it circular).
-        *   `project1_placeholder.png`, `project2_placeholder.png`, etc.
-    *   (Optional) Modify styles in `css/style.css` to change colors, fonts, or other layouts.
-    *   (Optional) Adjust behavior in `js/script.js` if needed (e.g., form submission logic).
-3.  **Deploy to GitHub Pages:**
-    *   Create a new repository on GitHub.
-    *   Upload all files and folders (`index.html`, `css/`, `js/`, `img/`, `README.md`) to the repository.
-    *   Go to the repository's Settings.
-    *   Navigate to the Pages section.
-    *   Choose the main branch (usually `main` or `master`) as the source.
-    *   Save the settings. Your site will be deployed to a URL like `https://your-username.github.io/your-repository-name/`.
+- Clean and responsive design with HTML, CSS, and Bootstrap
+- Includes personal bio, professional photo, and contact section
+- Showcases AI projects with images, video demos, and live links
+- Sections for Certifications, Experience, and Tools/Technologies
+- Integrated icons and styling for GitHub, Kaggle, LinkedIn, and more
 
-## Technologies Used
 
-*   HTML5
-*   CSS3 (with Bootstrap 5.3)
-*   JavaScript (ES6)
-*   Bootstrap Icons
-*   Google Fonts (Roboto)
+## 🛠️ Tech Stack
+
+- **HTML5 / CSS3**
+- **Bootstrap Icons**
+- **JavaScript (optional for interactivity)**
+- **Responsive Web Design principles**
+
+## 🧠 Featured Projects
+
+- Car Counter using YOLO and Region Masking
+- Crack Detection with Danger Classification
+- AI Virtual Keyboard (Air Click)
+- Tic Tac Toe Game — Unbeatable AI
+- Medical Chatbot using Gemini & Prompt Engineering
+- Face Recognition & Monitoring System
+- Sentiment Analysis with BERT (HuggingFace)
+- Car Suitability Classifier with Visual Analysis
+
+
+
+## 📫 Contact
+
+- 📍 Sadat City, Menoufia, Egypt  
+- 📞 +20 1009348502  
+- 📧 [amraldsoqi@gmail.com](mailto:amraldsoqi@gmail.com)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/amr-eldesouky-363163256/)  
+- 🧠 [Kaggle](https://www.kaggle.com/amreldesouky2)
 
 ---
 
-Created by Manus.
+
