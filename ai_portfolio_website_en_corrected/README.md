@@ -4,7 +4,7 @@ Welcome to my AI portfolio — a showcase of my projects and experience in the f
 
 ## 🌐 Live Website
 
-[View the Portfolio](https://<your-username>.github.io/Myportfolio/ai_portfolio_website_en_corrected/)  
+[View the Portfolio](https://amreldesouky.github.io/My-Portfolio/ai_portfolio_website_en_corrected/)  
 *(Replace the URL with your actual GitHub Pages link)*
 
 ## 🚀 Highlights
